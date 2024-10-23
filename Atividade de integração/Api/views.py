@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from django.shortcuts import render
 from rest_framework import status
 from . import serializers
-from models import produto
+from .models import produto
 from . import models
 
 # Create your views here.

@@ -25,5 +25,5 @@ from . import views
 # Defina o urlpatterns como uma lista vazia inicialmente
 urlpatterns = [
     path('produtos/', views.getAllProduto, name='produto-list'),
-    path('produtos/<int:pk>/', views.getProduto, name='produto-detail'),
+    path('produtos/<int:pk>/', views.produto_detail, name='produto-detail'),
 ]
